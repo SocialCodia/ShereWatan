@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "818347286613",
+    "firebase_url": "https://shere-watan.firebaseio.com",
+    "project_id": "shere-watan",
+    "storage_bucket": "shere-watan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818347286613:android:c580b1995fa494f6dbb4dc",
+        "android_client_info": {
+          "package_name": "com.socialcodia.sherewatan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818347286613-5qqfrehgi2e3si989nm1ld525gaotuvb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.socialcodia.sherewatan",
+            "certificate_hash": "bb5063805e8355cc4a9eb04cfb9c8c85fa5c1a2b"
+          }
+        },
+        {
+          "client_id": "818347286613-vgjpmd2i27t33q57p6rj9a2hl23sflv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBt82KVsjOsHpWncEEvzaMf0CF-Cu1SIVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818347286613-vgjpmd2i27t33q57p6rj9a2hl23sflv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chat_toolbar"
+    android:layout_height="?attr/actionBarSize"
+    android:minHeight="?attr/actionBarSize"
+    android:background="@color/colorPrimaryDark">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/toolbarUserImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/person_male"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#000000"
+        android:padding="2dp"
+              />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        >
+
+        <TextView
+            android:id="@+id/toolbarUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Umair Farooqui"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/toolbarUserStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</androidx.appcompat.widget.Toolbar>
